@@ -1,0 +1,10 @@
+1. git status
+2. git commit -a -m 'commit resoning message'
+3. git pull
+4. git push
+
+/////to check every changes in GUI////
+gitk
+
+///to add new files///
+git add -A
