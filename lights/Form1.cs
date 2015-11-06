@@ -11,7 +11,7 @@ namespace lights
 {
     public partial class Form1 : Form
     {
-        int turn=0;
+        int turn=-1;
         int p;
         Button[] btns;
         int []Stage1;
