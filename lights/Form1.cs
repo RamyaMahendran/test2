@@ -11,7 +11,7 @@ namespace lights
 {
     public partial class Form1 : Form
     {
-        int turn=1;
+        int turn=0;
         int p;
         Button[] btns;
         int []Stage1;
@@ -88,6 +88,11 @@ namespace lights
                 case 6: LightGlow(Stage6); break;
                 default: break;
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
